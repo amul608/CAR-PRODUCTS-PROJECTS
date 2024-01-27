@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav-under-image{
+    position: relative;
+}
+.nav-under-image img{
+   width:100%;
+   height:350px;
+   background-size: contain;
+   filter: brightness(50%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+.nav-under-image h1{
+    font-size:45px;
+    color:white;
+    font-weight:bolder;
+    position: absolute;
+    top:150px;
+    left:50px;
+    font-family: "Single Day", cursive;  
+}
+
+

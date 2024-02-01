@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section{
+    padding: 10px 30px;
+}
+.heading h1{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid silver;
+}
+
+.heading p{
+    color: rgb(80, 80, 80);
+    background-color: rgb(235, 235, 235);
+    padding:10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.heading p:hover{
+    color: grey;
+}
+.all-container{
+    display: flex;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.container-1 .img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.container-1 .topic h1{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.container-1 .topic h1:hover{
+    color: red;
+}
+.container-1 .topic .sub{
+    margin-top: 10px;
+    color: grey;
+}
+.container-1 .topic p{
+    margin-top: 10px;
+    color: grey;
+    line-height: 20px;
+}
+.container-1 .topic .btn-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-1 .topic .btn-1 .button{
+    padding:  15px;
+    background-color: red;
+    font-size: 12px;
+    color: white;
+}
+
+.side-topic{
+    padding: 20px;
+    width: 30%;
+    height: 570px;
+    background-color: rgb(243, 239, 239);
+    border: 1px solid silver;
+    margin-top: 30px;
+}
+.side-topic h1{
+    margin-bottom: 10px;
+}
+.side-topic .para{
+    color: red;
+}
+.side-topic p{
+    line-height: 25px;
+}
+
+@media (min-width: 300px) and (max-width:800px) {
+    .all-container{
+       flex-direction: column;
+    }
+    .container-1{
+         flex-direction: column;
+        margin-right: 20px;
+    }
+    .side-topic{
+       
+        width: 100%;
+    }
+    .container-1 .img {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        margin-left: 50px;
+    }
+}
+
